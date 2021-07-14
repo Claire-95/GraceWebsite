@@ -5,14 +5,27 @@ body {
     font-family: Georgia, serif;
     font-size: 15px;
 }
-nav ul, footer ul {
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CC873D;
+}
+
+footer ul {
     font-family: Georgia, serif;
     padding: 0px;
     list-style: none;
     font-weight: bold;
     text-align: center;
 }
-nav ul li, footer ul li {
+
+nav ul li {
+float: left;
+}
+
+footer ul li {
     display: inline;
     margin-right: 20px;
     text-align: center;
@@ -20,11 +33,14 @@ nav ul li, footer ul li {
 
 
 a {
-    text-decoration: none;
-    color: #D303FC;
+  display: block;
+  color: #CC873D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    background-color: #E88215;
 }
 h1 {
     font-size: 3em;
