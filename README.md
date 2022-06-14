@@ -1,2 +1,2 @@
-# Claire-95.github.io
+# GraceProject
 A website for Grace 
